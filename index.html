@@ -4,70 +4,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
-    />
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png"/>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
     <title>Frontend Mentor | Results summary component</title>
   </head>
-  <body>
-    <div class="main">
+  <main class="main">
+    <section class="column result">
+      <h3>Your Result</h3>
+      <section class="result-score">
+      <article class="score">76</article>
+      <span class="total">of 100</span>
+      </section>
+      <h2>Great</h2>
+      <article class="message">
+        You scored higher than 65% of the people who have taken these tests
+      </article>
+    </section>
+    <section class="column summary">
+      <h3>Summary</h3>
 
-      <div class="column result">
-        <h3>Your Result</h3>
-        <div class="result-score">
-        <div class="score">76</div>
-        <span class="total">of 100</span>
-        </div>
-        <h2>Great</h2>
-        <div class="message">
-          You scored higher than 65% of the people who have taken these tests
-        </div>
-      </div>
+      <section class="stats" id="reaction">
+        <section class="statname">
+          <img src="./assets/images/icon-reaction.svg" alt="reaction" />
+          Reaction
+        </section>
+        <section class="score"> <span class="numer">80</span> / 100</section>
+      </section>
 
-      <div class="column summary">
-        <h3>Summary</h3>
+      <section class="stats" id="memory">
+        <section class="statname">
+          <img src="./assets/images/icon-memory.svg" alt="memory" /> Memory
+        </section>
+          <section class="score"> <span class="numer">92</span> / 100</section>
+      </section>
 
-        <div class="stats" id="reaction">
-          <div class="statname">
-            <img src="./assets/images/icon-reaction.svg" alt="reaction" />
-            Reaction
-          </div>
-          <div class="score"> <span class="numer">80</span> / 100</div>
-        </div>
+      <section class="stats" id="verbal">
+        <section class="statname">
+          <img src="./assets/images/icon-verbal.svg" alt="memory" /> Verbal
+        </section>
+          <section class="score"> <span class="numer">61</span> / 100</section>
+      </section>
 
-        <div class="stats" id="memory">
-          <div class="statname">
-            <img src="./assets/images/icon-memory.svg" alt="memory" /> Memory
-          </div>
-            <div class="score"> <span class="numer">92</span> / 100</div>
-        </div>
-
-        <div class="stats" id="verbal">
-          <div class="statname">
-            <img src="./assets/images/icon-verbal.svg" alt="memory" /> Verbal
-          </div>
-            <div class="score"> <span class="numer">61</span> / 100</div>
-        </div>
-
-        <div class="stats" id="visual">
-          <div class="statname">
-            <img src="./assets/images/icon-visual.svg" alt="memory" /> Visual
-          </div>
-            <div class="score"> <span class="numer">72</span> / 100</div>
-        </div>
-
+      <section class="stats" id="visual">
+        <section class="statname">
+          <img src="./assets/images/icon-visual.svg" alt="memory" /> Visual
+        </section>
+          <section class="score"> <span class="numer">72</span> / 100</section>
+        </section>
         <button>Continue</button>
-
-        </div>
-      </div>
-    </div>
-  </body>
+    </section>
+   
+  </main>
 </html>

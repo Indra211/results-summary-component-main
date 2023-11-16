@@ -113,7 +113,8 @@ body {
   display: flex;
   flex-wrap: wrap;
   max-width: 40rem;
-
+justify-content: center;
+align-items: center;
   text-align: center;
   box-shadow: var(--nlightlavender) 0px 7px 29px 0px;
   border-radius: 20px;
